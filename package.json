@@ -1,22 +1,17 @@
 {
-  "name": "heroes-search",
-  "version": "0.0.1",
-  "description": "",
-  "main": "app.js",
+  "name": "heroes-search-v2",
+  "version": "0.0.2",
+  "description": "select stories application",
+  "main": "src/app.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marciovz/heroes-search.git"
-  },
-  "author": "Marcio Vilmar Zimmermann <marciovzim@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marciovz/heroes-search/issues"
-  },
-  "homepage": "https://github.com/marciovz/heroes-search#readme",
-  "dependencies": {
-    "express": "^4.15.3"
-  }
+  "author": "Marcio Vilmar Zimmermann",
+  "license": "ISC"
 }

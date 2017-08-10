@@ -1,0 +1,21 @@
+<%- include('./header.ejs'); %>
+	
+	<!-- ASIDE BLOCK -->
+	<aside class="mainStory_block_aside">
+		<section class="mainStory_block_aside_title">
+			<h2 class="mainStory_aside_title_name">Personagens</h2>
+		</section>
+		<section>
+			<% for(var i=0; i< story.characters.length && i< 15; i++) { %>
+				<a class="mainStory_aside_content"  href="/characters/<%= story.characters[i].id %>"><%= story.characters[i].name %></a> <br />
+			<% } %>
+		</section>
+	</aside>
+
+<% titleMain = story.title %>
+
+<% descriptionMain = story.description %>
+
+<%- include('./blockMain.ejs'); %>
+
+<%- include('./footer.ejs'); %>

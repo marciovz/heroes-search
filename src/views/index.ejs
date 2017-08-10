@@ -1,0 +1,19 @@
+<%- include('./header.ejs'); %>
+
+<!--  MAIN BLOCK-->
+  <main class="main_block"> 
+    <!-- Image Left -->  
+    <section class="main_block_image_left">
+      <a href="stories/<%= stories.story1.id %>"><img class="main_image_select" src="<%= stories.story1.urlImg %>"></a>
+    </section>
+    <!-- Image Center -->  
+    <section class="main_block_image_center">
+      <a href="stories/<%= stories.story2.id %>"><img class="main_image_select" src="<%= stories.story2.urlImg %>"></a>      
+    </section>
+    <!-- Image  Right-->  
+    <section class="main_block_image_right">
+      <a href="stories/<%= stories.story3.id %>"><img class="main_image_select" src="<%= stories.story3.urlImg %>"></a>
+    </section>
+  </main>
+
+<%- include('./footer.ejs') %>

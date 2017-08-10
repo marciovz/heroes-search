@@ -1,9 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path');
+const rootController = require('../controllers/rootController.js');
+const { stories } = require('../config/config.js')
 
 router.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname, '../views/index.html'));
+	rootController.getAttribute(stories.story1.id).then((rooter) => {
+		res.render('index.ejs',{ stories, rooter });
+	});
 });
 
 module.exports = router;

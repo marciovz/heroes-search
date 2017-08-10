@@ -1,0 +1,16 @@
+
+<!--*  FOOTER BLOCK  -->
+	
+	<% if(typeof story !== "undefined") attribution = story.attributionText
+		else if( typeof character !== "undefined" ) attribution = character.attributionText
+		else if( typeof rooter !== "underfined") attribution = rooter.attributionText
+		else attribution = "By Marvel" %>
+  
+  <footer class="footer">
+    <span class="footer_attribute">
+      <p class="footer_attribute_text"><%= attribution %></p> 
+    </span>
+  </footer>
+
+</body>
+</html>

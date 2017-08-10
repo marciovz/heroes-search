@@ -1,0 +1,135 @@
+/* mainStory_block */
+.mainStory_block {
+	position:absolute;
+	margin: 0;
+	top: 250px;
+	left: 400px;
+	width: 800px;
+	height: 300px;
+}
+
+/* Block_title*/
+.mainStory_block_title {
+	z-index: 7;
+	position: relative;
+	margin-top: 0;
+	margin-left:50px;
+	height: 50px;
+
+}
+
+.mainStory_block_title_name {
+	position: absolute;
+	margin: 0;
+	top: 10px;
+	left: 15px;
+}
+
+.mainStory_title_name_text {
+	margin: 0px;
+	font-size: 30px;
+}
+
+.mainStory_block_title_content{
+	position: absolute;
+	top: 15px;
+	left: 160px;
+}
+
+
+.mainStory_title_content_text{
+	margin: 0px;
+	color: #00C;
+}
+
+
+/* Bloc Description */
+.mainStory_block_description {
+	z-index: 9;
+	position:  relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	
+	height: 250px;
+	background-color: #35564A;
+}
+
+.mainStory_block_description_title {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+
+.mainStory_description_title_name{
+	margin:0;
+}
+
+.mainStory_description_content {
+	position: absolute;
+	top: 2px;
+	left: 160px;
+	width:584px;
+	height: 241px;
+	font-size: 18px;
+	color: #00C;
+}
+
+
+/* Block Image */
+.mainStory_block_image {
+	z-index: 10;
+	position: absolute;
+	margin: 0;
+	top: 150px;
+	left:30px; 
+	width: 150px;
+	height: 200px;	
+}
+
+.mainStory_image_foto {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+}
+
+
+/* Block Aside*/
+.mainStory_block_aside {
+	position: absolute;
+	margin: 0;
+	top: 230px;
+	left: 150px;
+	width: 250px;
+	height:380px;
+
+	background-color: white;
+	border: 1px solid black;		
+}
+
+.mainStory_block_aside_title {
+	position: relative;
+	margin: 0;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 50px;
+}
+
+.mainStory_aside_title_name{
+	position: relative;
+	margin: 0;
+	top: 10px;
+	left: 35px;
+}
+
+.mainStory_aside_content {
+	position: relative;
+	margin: 0px;
+	top:0px;
+	left: 15px;
+	text-decoration: none;
+	color: #00C;
+	font-size: 16px;
+}
