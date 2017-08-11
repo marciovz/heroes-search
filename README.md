@@ -41,7 +41,7 @@ ou
 		  nodemon app.js
 
 
-* Digite localhst: 3000 no navegador para rodar a aplicação em um servidor local, ou a url da aplicação para um servidor dedicado;
+* Acesse localhst:3000 no navegador para rodar a aplicação em um servidor local, ou a url da aplicação para um servidor dedicado;
 
 
 	      localhost:3000
