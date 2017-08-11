@@ -1,15 +1,48 @@
-README.TXT
+## Heroes-Search
 
-Instalação:
+### Instalando o projeto
 
-1 - Descompacte o arquivo heroes-search na pasta do servidor ou no workspace;
+* Acesse a pasta onde será instalado a aplicação via terminal;
+* Faça o clone do projeto digitando a seguinte instrução na linha de comando;
 
-2 - Abra o arquivo config.js e insira suas chaves de acesso (publicKey e privateKey) nos locais indicados dentro do arquivo. Para obter suas chaves, cadastre-se no site da Marvel https://developer.marvel.com/;
 
-3 - Instale os pacotes necessários para a aplicação. No terminal, navegue até a pasta do projeto "heroes-search" e rode o comando "npm install";
+	  git clone  https://github.com/marciovz/heroes-search.git
 
-4 - Inicie o servidor nodejs com o comando "node src/app.js" ou "nodemon app.js"
+* Entre na pasta Heroes-Search e instale os packages do projeto;
 
-5 - Digite o endereço "localhost:3000" no navegador. Pronto, se tudo ocorreu certo, o aplicativo já deverár estar rodando.
+	
+      npm install
 
+
+### Configurações do projeto
+
+* Abra o arquivo config.js que encontra-se na pasta src/config;
+* Coloque suas chaves de acesso a api da Marvil nos locais indicados;
+
+```javascript
+key: {
+	pubKey: "INSIRA AQUI SUA PUBLIC KEY",
+	privateKey: "INSIRA AQUI SUA PRIVATE KEY"	
+},
+
+```
+
+obs.: Caso não possua as chaves de acesso, cadastre-se na site da [Marvel](http://developer.marvel.com/) para adquiri-las;
+
+
+### Rodando o projeto
+
+* Inicie o servidor NodeJS dentro da pasta Heroes-Search
+
+
+		  node src/app.js
+ou
+
+		  nodemon app.js
+
+
+* Digite localhst: 3000 no navegador para rodar a aplicação em um servidor local, ou a url da aplicação para um servidor dedicado;
+
+
+	      localhost:3000
 
